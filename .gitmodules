@@ -1,3 +1,6 @@
 [submodule "Fundamentals/html-foundations/odin-recipes"]
 	path = Fundamentals/html-foundations/odin-recipes
 	url = git@github.com:spectre-xenon/odin-recipes.git
+[submodule "Flexbox/odin-landing-page"]
+	path = Flexbox/odin-landing-page
+	url = git@github.com:spectre-xenon/odin-landing-page.git
