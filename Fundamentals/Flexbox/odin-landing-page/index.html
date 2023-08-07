@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/style.css" />
+    <script src="./resources/app.js"></script>
+    <title>Awesome landing page</title>
+  </head>
+  <body>
+    <audio
+      id="spear-of-justise"
+      src="./resources/music/Spear of Justice.mp3"
+    ></audio>
+    <audio src="./resources/music/Spider Dance.mp3" id="spider-dance"></audio>
+    <header>
+      <nav>
+        <img
+          src="./resources/imgs/Soul.png"
+          id="soul"
+          alt="soul"
+          onmouseover="hover(this);"
+          onmouseout="hoverOut(this)"
+        />
+        <div class="nav-links">
+          <a href="#second-section">The boys</a>
+          <a href="#third-section">Toriel</a>
+          <a href="./resources/imgs/kris.webp"
+            >Gaster <span id="new">New!</span></a
+          >
+          <a href="#fourth-section">Muffet</a>
+        </div>
+      </nav>
+      <div class="header-content">
+        <div class="header-text-container">
+          <h1 class="header-text">
+            This website is <span id="awesome">AWESOME!</span>
+          </h1>
+          <span
+            ><button onclick="play_1()">
+              <a href="#second-section">Why?</a>
+            </button>
+          </span>
+        </div>
+        <div class="header-sans"></div>
+      </div>
+    </header>
+
+    <section id="second-section">
+      <div id="second-section-header">
+        <h2>Cause we've got the boys!</h2>
+      </div>
+      <div class="the-boys-container">
+        <h4 id="undyne-h4">-Sadistic Fish</h4>
+        <h4 id="mettaton-h4">-Superstar! *May try to kill u*</h4>
+        <h4 id="papyrus-h4">-CoolSkeleton95</h4>
+        <div>
+          <div class="the-boys-img" id="undyne"></div>
+          <h3>Undyne</h3>
+        </div>
+        <div>
+          <div class="the-boys-img" id="mettaton"></div>
+          <h3>Mettaton</h3>
+        </div>
+        <div>
+          <div class="the-boys-img" id="papyrus"></div>
+          <h3>Papyrus</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="third-section">
+      <div class="text-container">
+        <h2>A goat mom!</h2>
+        <ul>
+          <li>
+            Will make <span id="butter-scotch">Butter-Scotch</span> pies for
+            you.
+          </li>
+          <li>Will call u “My Child”.</li>
+          <li>WARNING: Will make bad jokes.</li>
+        </ul>
+      </div>
+      <div class="toriel-container">
+        <h3 class="toriel-h3">Toriel</h3>
+        <img src="./resources/imgs/Toriel_battle.webp" alt="Toriel" />
+      </div>
+    </section>
+
+    <section id="fourth-section">
+      <div class="toriel-container">
+        <h3 class="toriel-h3">Muffet</h3>
+        <img src="./resources/imgs/Muffet_battle_idle.webp" alt="Muffet" />
+      </div>
+      <div class="text-container-muffet">
+        <h2>And a spider waifu!</h2>
+        <ul>
+          <li>Will take all ur money for spider charity</li>
+          <li>May feed u to her pet</li>
+          <li>
+            Amazing
+            <span id="muffet-ost"
+              ><button id="muffet-ost-butt" onclick="play_2()">
+                OST
+              </button></span
+            >
+          </li>
+        </ul>
+      </div>
+      <div id="muffet-pet"></div>
+    </section>
+
+    <section id="fifth-section">
+      <img
+        id="flowey"
+        src="./resources/imgs/Flowey_battle_talk.webp"
+        alt="Flowey"
+      />
+      <img
+        id="toby-fox"
+        src="./resources/imgs/Annoying_Dog_sprite.webp"
+        alt="Annoying Dog"
+      />
+      <p>
+        Don’t forget the loving amazing great kind friendly will not try to kill
+        you and destroy the world
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        All rights belong to toby fox (undertale creator) and this is simply a
+        fanpage made for educational purposes only.
+      </p>
+    </footer>
+
+    <div class="block-phone"><h1>Open PC</h1></div>
+  </body>
+
+  <script src="./resources/app.js"></script>
+</html>
