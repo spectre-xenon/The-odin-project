@@ -4,3 +4,6 @@
 [submodule "Fundamentals/Flexbox/odin-landing-page"]
 	path = Fundamentals/Flexbox/odin-landing-page
 	url = git@github.com:spectre-xenon/odin-landing-page.git
+[submodule "Fundamentals/Javascript/odin-rock-paper-sicssors"]
+	path = Fundamentals/Javascript/odin-rock-paper-sicssors
+	url= git@github.com:spectre-xenon/odin-rock-paper-scissors.git
