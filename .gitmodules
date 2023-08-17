@@ -7,3 +7,6 @@
 [submodule "Fundamentals/Javascript/odin-rock-paper-scissors"]
 	path = Fundamentals/Javascript/odin-rock-paper-scissors
 	url = git@github.com:spectre-xenon/odin-rock-paper-scissors.git
+[submodule "Fundamentals/Javascript/odin-etch-a-sketch"]
+	path = Fundamentals/Javascript/odin-etch-a-sketch
+	url = git@github.com:spectre-xenon/odin-etch-a-sketch.git
