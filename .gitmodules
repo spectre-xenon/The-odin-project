@@ -10,3 +10,9 @@
 [submodule "Fundamentals/Javascript/odin-etch-a-sketch"]
 	path = Fundamentals/Javascript/odin-etch-a-sketch
 	url = git@github.com:spectre-xenon/odin-etch-a-sketch.git
+[submodule "Fundamentals/Javascript/odin-calculator"]
+	path = Fundamentals/Javascript/odin-calculator
+	url = git@github.com:spectre-xenon/odin-calculator.git
+[submodule "Intermediate-Html-Css/odin-sign-up"]
+	path = Intermediate-Html-Css/odin-sign-up
+	url = git@github.com:spectre-xenon/odin-sign-up.git
