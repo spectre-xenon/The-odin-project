@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL@20..48,100..700,0..1"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <aside id="sideBar">
+      <div class="linkContainer" id="logo">
+        <span class="material-symbols-rounded filled">dashboard</span>
+        <h1>Dashboard</h1>
+      </div>
+      <div class="linkContainer">
+        <span class="material-symbols-rounded filled">home</span>
+        <a href="">Home</a>
+        <span class="material-symbols-rounded filled">account_circle</span>
+        <a href="">Profile</a>
+        <span class="material-symbols-rounded filled">chat</span>
+        <a href="">Messages</a>
+        <span class="material-symbols-rounded">history</span>
+        <a href="">History</a>
+        <span class="material-symbols-rounded">add_task</span>
+        <a href="">Tasks</a>
+        <span class="material-symbols-rounded filled">groups</span>
+        <a href="">Communities</a>
+      </div>
+      <div class="linkContainer">
+        <span class="material-symbols-rounded filled">settings</span>
+        <a href="">Settings</a>
+        <span class="material-symbols-rounded fil">support_agent</span>
+        <a href="">Support</a>
+        <span class="material-symbols-rounded filled">privacy_tip</span>
+        <a href="">Privacy</a>
+      </div>
+    </aside>
+    <main id="mainContainer">
+      <nav>
+        <div id="search" class="navContainer">
+          <span class="material-symbols-rounded">search</span>
+          <input type="text" placeholder="Search..." />
+        </div>
+        <div id="user" class="navContainer">
+          <span class="material-symbols-rounded filled">
+            notifications_active
+          </span>
+          <img src="./resources/lucy.png" alt="profile picture" />
+          <a href="">SpectreXen</a>
+        </div>
+      </nav>
+
+      <div id="mainContentContainer">
+        <header>
+          <div id="greeterImage" class="navContainer">
+            <img src="./resources/lucy.png" alt="profile Picture" />
+            <p id="greeter">
+              <span>Hi there,</span> <br />SpectreXen(@OmarZaghlool)
+            </p>
+          </div>
+          <div id="greeterControls" class="navContainer">
+            <button>New</button><button>Upload</button><button>Share</button>
+          </div>
+        </header>
+        <div id="mainContent">
+          <div id="cardContainer">
+            <h4>Your Projects</h4>
+            <div class="card">
+              <h4>Super Cool Project</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Beatae, modi corporis? Quaerat, voluptatum nulla hic laborum ad
+                suscipit libero veritatis nesciunt fugiat rem doloribus modi
+                nobis, quos, ab totam quibusdam.
+              </p>
+              <div class="cardIcons">
+                <span class="material-symbols-rounded"> hotel_class </span>
+                <span class="material-symbols-rounded"> visibility </span>
+                <span class="material-symbols-rounded share"> share </span>
+              </div>
+            </div>
+            <div class="card">
+              <h4>Less Cool Project</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Beatae, modi corporis? Quaerat, voluptatum nulla hic laborum ad
+                suscipit libero veritatis nesciunt fugiat rem doloribus modi
+                nobis, quos, ab totam quibusdam.
+              </p>
+              <div class="cardIcons">
+                <span class="material-symbols-rounded"> hotel_class </span>
+                <span class="material-symbols-rounded"> visibility </span>
+                <span class="material-symbols-rounded share"> share </span>
+              </div>
+            </div>
+            <div class="card">
+              <h4>Impossible app</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Beatae, modi corporis? Quaerat, voluptatum nulla hic laborum ad
+                suscipit libero veritatis nesciunt fugiat rem doloribus modi
+                nobis, quos, ab totam quibusdam.
+              </p>
+              <div class="cardIcons">
+                <span class="material-symbols-rounded"> hotel_class </span>
+                <span class="material-symbols-rounded"> visibility </span>
+                <span class="material-symbols-rounded share"> share </span>
+              </div>
+            </div>
+            <div class="card">
+              <h4>Easy Peasy App</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Beatae, modi corporis? Quaerat, voluptatum nulla hic laborum ad
+                suscipit libero veritatis nesciunt fugiat rem doloribus modi
+                nobis, quos, ab totam quibusdam.
+              </p>
+              <div class="cardIcons">
+                <span class="material-symbols-rounded"> hotel_class </span>
+                <span class="material-symbols-rounded"> visibility </span>
+                <span class="material-symbols-rounded share"> share </span>
+              </div>
+            </div>
+          </div>
+          <div id="sideInfo">
+            <h4>Announcements</h4>
+            <div id="Announcements" class="card">
+              <div class="single">
+                <h4>Site Maintenance</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Commodi, voluptates.
+                </p>
+              </div>
+              <line></line>
+              <div class="single">
+                <h4>Updated Privacy Policy</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Commodi, voluptates.
+                </p>
+              </div>
+            </div>
+            <div id="trending">
+              <h4>Trending</h4>
+              <div class="card">
+                <div class="trendingUser">
+                  <img src="./resources/khalifa.png" alt="profile picture" />
+                  <p>
+                    <span class="userSign">@Khalifa</span><br />
+                    Lorem ipsum, blah blah
+                  </p>
+                </div>
+                <div class="trendingUser">
+                  <img src="./resources/Ben-sina.png" alt="profile picture" />
+                  <p>
+                    <span class="userSign">@Ben Sina</span><br />
+                    Lorem ipsum, blah blah
+                  </p>
+                </div>
+                <div class="trendingUser">
+                  <img
+                    src="./resources/mazen-art.png"
+                    alt="profile picture"
+                    @Body
+                  />
+                  <p>
+                    <span class="userSign">@Mazen</span><br />
+                    Lorem ipsum, blah blah
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
