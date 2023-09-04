@@ -13,9 +13,9 @@
 [submodule "Fundamentals/Javascript/odin-calculator"]
 	path = Fundamentals/Javascript/odin-calculator
 	url = git@github.com:spectre-xenon/odin-calculator.git
-[submodule "Intermediate-Html-Css/odin-sign-up"]
-	path = Intermediate-Html-Css/odin-sign-up
+[submodule "Full-Stack-Javascript/Intermediate-Html-Css/odin-sign-up"]
+	path = Full-Stack-Javascript/Intermediate-Html-Css/odin-sign-up
 	url = git@github.com:spectre-xenon/odin-sign-up.git
-[submodule "Intermediate-Html-Css/odin-admin-dashboard"]
-	path = Intermediate-Html-Css/odin-admin-dashboard
+[submodule "Full-Stack-Javascript/Intermediate-Html-Css/odin-admin-dashboard"]
+	path = Full-Stack-Javascript/Intermediate-Html-Css/odin-admin-dashboard
 	url = git@github.com:spectre-xenon/odin-admin-dashboard.git
