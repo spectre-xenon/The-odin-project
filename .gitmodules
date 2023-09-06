@@ -19,3 +19,6 @@
 [submodule "Full-Stack-Javascript/Intermediate-Html-Css/odin-admin-dashboard"]
 	path = Full-Stack-Javascript/Intermediate-Html-Css/odin-admin-dashboard
 	url = git@github.com:spectre-xenon/odin-admin-dashboard.git
+[submodule "Full-Stack-Javascript/Javascript/odin-library"]
+	path = Full-Stack-Javascript/Javascript/odin-library
+	url = git@github.com:spectre-xenon/odin-library.git
