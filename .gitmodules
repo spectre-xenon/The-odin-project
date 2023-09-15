@@ -22,3 +22,6 @@
 [submodule "Full-Stack-Javascript/Javascript/odin-library"]
 	path = Full-Stack-Javascript/Javascript/odin-library
 	url = git@github.com:spectre-xenon/odin-library.git
+[submodule "Full-Stack-Javascript/Javascript/odin-tic-tac-toe"]
+	path = Full-Stack-Javascript/Javascript/odin-tic-tac-toe
+	url = git@github.com:spectre-xenon/odin-tic-tac-toe.git
