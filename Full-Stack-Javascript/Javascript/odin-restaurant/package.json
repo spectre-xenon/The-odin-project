@@ -2,11 +2,12 @@
   "name": "odin-restaurant",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "buildProd": "pnpm build --mode production --no-devtool",
+    "watch": "webpack --watch",
     "start": "webpack serve --open"
   },
   "keywords": [],
