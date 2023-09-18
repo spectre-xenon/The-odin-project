@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "buildProd": "pnpm build --mode production --no-devtool",
+    "buildProd": "webpack --mode production --no-devtool",
     "watch": "webpack --watch",
     "start": "webpack serve --open"
   },
