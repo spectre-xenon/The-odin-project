@@ -72,4 +72,7 @@ main {
   width: 100%;
   border-right: 2px white solid;
   border-left: 2px white solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
