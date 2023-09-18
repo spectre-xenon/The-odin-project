@@ -1,5 +1,6 @@
 import createHome from "./welcome/welcome";
 import createMenu from "./menu/menu";
+import createAbout from "./about/about";
 
 const contentContainer = document.createElement("div");
 contentContainer.id = "contentContainer";
@@ -8,7 +9,7 @@ contentContainer.appendChild(content);
 
 const create = () => {
   content.textContent = "";
-  content.appendChild(createMenu());
+  content.appendChild(createHome());
   return contentContainer;
 };
 
@@ -23,6 +24,8 @@ const add = (event) => {
     content.textContent = "";
     content.appendChild(createMenu());
   } else if (event.target.textContent === "About") {
+    content.textContent = "";
+    content.appendChild(createAbout());
   }
 };
 
