@@ -25,3 +25,9 @@
 [submodule "Full-Stack-Javascript/Javascript/odin-tic-tac-toe"]
 	path = Full-Stack-Javascript/Javascript/odin-tic-tac-toe
 	url = git@github.com:spectre-xenon/odin-tic-tac-toe.git
+[submodule "Full-Stack-Javascript/Javascript/odin-restaurant"]
+	path = Full-Stack-Javascript/Javascript/odin-restaurant
+	url = git@github.com:spectre-xenon/odin-restaurant.git
+[submodule "Full-Stack-Javascript/Javascript/odin-todo"]
+	path = Full-Stack-Javascript/Javascript/odin-todo
+	url = git@github.com:spectre-xenon/odin-todo.git
