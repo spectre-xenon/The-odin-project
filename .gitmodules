@@ -31,3 +31,6 @@
 [submodule "Full-Stack-Javascript/Javascript/odin-todo"]
 	path = Full-Stack-Javascript/Javascript/odin-todo
 	url = git@github.com:spectre-xenon/odin-todo.git
+[submodule "Full-Stack-Javascript/Javascript/odin-weather-app"]
+	path = Full-Stack-Javascript/Javascript/odin-weather-app
+	url = git@github.com:spectre-xenon/odin-weather-app.git
