@@ -35,13 +35,18 @@ function mergeSort(Arr) {
 }
 
 const random = Array.from({ length: 100000 }, () =>
-  Math.floor(Math.random() * 100)
+  Math.floor(Math.random() * 100000)
 );
 
 const startTime = performance.now();
 const randomSorted = mergeSort(random);
 const endTime = performance.now();
 
+const startTimeN = performance.now();
+const randomSortedN = random.sort((a, b) => a - b);
+const endTimeN = performance.now();
+
 console.log(`random unsorted : ${random}`);
 console.log(`random sordted : ${randomSorted}`);
 console.log(`Time : ${(endTime - startTime).toFixed(3)}ms`);
+console.log(`Native Time : ${(endTimeN - startTimeN).toFixed(3)}ms`);
