@@ -27,51 +27,30 @@ export default function LinkedList() {
   const head = () => _head;
   const tail = () => _tail;
 
-  const toArray = () => {
-    let pointer = _head;
-    const Arr = [];
-
-    while (pointer) {
-      Arr.push(pointer);
-      pointer = pointer.nextNode;
-    }
-
-    return Arr;
+  const toArray = (pointer = _head, Arr = []) => {
+    if (!pointer) return Arr;
+    return toArray(pointer.nextNode, [...Arr, pointer]);
   };
 
   const size = () => toArray().length;
 
   const at = (index) => toArray()[index];
 
-  const contains = (value) => {
-    let pointer = _head;
-    while (pointer) {
-      if (pointer.value === value) return true;
-      pointer = pointer.nextNode;
-    }
-    return false;
+  const contains = (value, pointer = _head) => {
+    if (!pointer) return false;
+    if (pointer.value === value) return true;
+    return contains(value, pointer.nextNode);
   };
 
-  const find = (value) => {
-    let pointer = _head;
-    let index = 0;
-    while (pointer) {
-      if (pointer.value === value) return index;
-      index++;
-      pointer = pointer.nextNode;
-    }
-    return null;
+  const find = (value, pointer = _head, index = 0) => {
+    if (!pointer) return null;
+    if (pointer.value === value) return index;
+    return find(value, pointer.nextNode, index + 1);
   };
 
-  const toString = () => {
-    let pointer = _head;
-    let string = "";
-    while (pointer) {
-      string += `(${pointer.value}) -> `;
-      pointer = pointer.nextNode;
-    }
-    string += "null";
-    return string;
+  const toString = (pointer = _head, string = "") => {
+    if (!pointer) return string + "null";
+    return toString(pointer.nextNode, string + `(${pointer.value}) -> `);
   };
 
   const insertAt = (value, index) => {
@@ -85,16 +64,14 @@ export default function LinkedList() {
     at(index - 1).nextNode = at(index + 1);
   };
 
-  const pop = () => {
-    let pointer = _head;
-    while (pointer) {
-      if (pointer.nextNode === _tail) {
-        pointer.nextNode = null;
-        _tail = pointer;
-        return;
-      }
-      pointer = pointer.nextNode;
+  const pop = (pointer = _head) => {
+    if (!pointer) return;
+    if (pointer.nextNode === _tail) {
+      pointer.nextNode = null;
+      _tail = pointer;
+      return;
     }
+    return pop(pointer.nextNode);
   };
 
   return {
