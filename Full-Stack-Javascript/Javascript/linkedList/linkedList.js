@@ -74,6 +74,17 @@ export default function LinkedList() {
     return string;
   };
 
+  const insertAt = (value, index) => {
+    const newNode = Node(value);
+    newNode.nextNode = at(index);
+    at(index - 1).nextNode = newNode;
+  };
+
+  const removeAt = (index) => {
+    if (!at(index + 1)) return;
+    at(index - 1).nextNode = at(index + 1);
+  };
+
   const pop = () => {
     let pointer = _head;
     while (pointer) {
@@ -98,5 +109,7 @@ export default function LinkedList() {
     contains,
     find,
     toString,
+    insertAt,
+    removeAt,
   };
 }
