@@ -7,6 +7,7 @@ export default function LinkedList() {
   const prepend = (value) => {
     const newNode = Node(value);
     if (_head) newNode.nextNode = _head;
+    if (_head && !_tail) _tail = _head;
     _head = newNode;
   };
 
